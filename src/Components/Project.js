@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
+import whackafood from "../Images/Whack-A-Food.mp4";
 function Project(){
   return(
   <div class = "Project">
@@ -23,6 +23,11 @@ function Project(){
         <a href="https://parkhisaini.itch.io/whack-a-food" >AVAILABLE ON WEB BROWSER</a>
         </div>
       </div> 
+      <div class="videosec">
+      <video width="900" height="390"  onmouseover="this.play()" onmouseout="this.pause();this.currentTime=0;">
+      <source src={whackafood} type="video/mp4"></source>
+      </video>
+      </div>
     
 
     </div>
