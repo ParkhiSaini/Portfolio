@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from "../Images/profile.jpeg";
+import profile from "../Images/profile_cropped.jpeg";
 
 function About(){
     return(
@@ -7,8 +7,8 @@ function About(){
             <p className="about-title">ABOUT ME</p>
             <hr className="divider2" />
             <div className="content">
-            <p>Enter a realm where <span class="highlight">Marvel magic</span> converges with the imaginative prowess of a <span class="highlight">game developer</span>. With superhero-like passion, she embarks on a heroic journey to shape extraordinary virtual realms.</p>
-            <p>With the genius of Tony Stark, she crafts awe-inspiring games through <span class="highlight">programming wizardry</span>. Like Doctor Strange, she weaves captivating code, creating immersive <span class="highlight">interactive adventures</span>. Possessing technical brilliance and the <span class="highlight">leadership qualities</span> of Captain America, she fearlessly guides teams, fostering collaboration. Expect <span class="highlight">breathtaking games</span> and meticulously managed projects, where she and her team harness their superhuman abilities to conquer any challenge.</p>
+            <p>Enter a realm where <span class="highlight">Marvel magic</span> converges with the imaginative prowess of a <span class="highlight">game developer</span>. With <span class="highlight">superhero-like passion</span>, she embarks on a heroic journey to shape extraordinary virtual realms.</p>
+            <p>With the brilliance of Tony Stark and the mystical <span class="highlight">code-weaving skills</span> of Doctor Strange, she crafts <span class="highlight">awe-inspiring games</span>. Possessing the <span class="highlight">leadership qualities</span> of Captain America, she fearlessly guides teams, fostering <span class="highlight">collaboration</span>. Expect breathtaking adventures and projects where her team harnesses superhuman abilities to <span class="highlight">conquer any challenge</span>.</p>
             </div>
             <div className="profile">
             <img class="profile-photo" src={profile} alt="profile-photo" />

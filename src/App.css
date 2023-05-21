@@ -423,7 +423,7 @@ body{
   margin-top:1vh;
   margin-left:-70vh;
   margin-bottom: 70px;
-  font-size: 2.5vh;
+  font-size: 2.8vh;
   line-height:2;
   border-radius: 4vh;
 }
@@ -438,13 +438,20 @@ body{
   width: 45%;
   height: 475px;
   margin: 30px;
-  margin-left: 0;
+  margin-right: -135vh;
   margin-bottom: 70px;
+  margin-top:-71vh;
 }
 
 .profile-photo {
-  width: 100%;
+  width: 62%;
   height: auto;
+  filter: grayscale(100%);
+
+}
+
+.profile-photo:hover {
+  filter: none;
 }
 
 
