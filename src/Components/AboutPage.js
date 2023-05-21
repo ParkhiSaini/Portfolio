@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from "../Images/profile_cropped.jpeg";
-
+import resume from "../Images/Resume.pdf";
 function About(){
     return(
         <div className="AboutPage">
@@ -13,7 +13,9 @@ function About(){
             <div className="profile">
             <img class="profile-photo" src={profile} alt="profile-photo" />
            </div>
-            
+           <div className="downloadCV">
+           <a href={resume} target="_blank" class="cv-button">Download CV</a>
+           </div>
         </div>
 
     );

@@ -423,11 +423,13 @@ body{
   margin-top:1vh;
   margin-left:-70vh;
   margin-bottom: 70px;
-  font-size: 2.8vh;
+  font-size: 2.6vh;
   line-height:2;
   border-radius: 4vh;
+  font-family:  'Akkurat';
+  font-style: normal;
+  font-weight: 400;
 }
-
 
 .highlight {
   color: #88fef7;
@@ -454,6 +456,23 @@ body{
   filter: none;
 }
 
+
+.cv-button {
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  border: 5px solid #3c3b3b;
+  border-radius: 0px;
+  position: relative;
+  top: -12vh;
+  left:-61vh; 
+  color:#ffffff
+}
+
+.cv-button a:link {
+  text-decoration: none;
+  color: #88FEF7;
+}
 
 
 
